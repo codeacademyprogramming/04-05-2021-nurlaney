@@ -164,7 +164,7 @@ color: #94A2B3;
 /* testimonials start */
 
 #testimonial{
-    margin: 100px 0;
+    margin-top: 100px;
     background-image: url(./images/testimonials-section.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,3 +200,110 @@ color: #94A2B3;
     font-weight: bold;
 }
 /* testimonials end */
+
+/* support start */
+
+#support{
+    background-color: #e6eaf0;
+    padding-top: 10%;
+}
+
+#support img{
+    width: 100%;
+}
+#support .section-title{
+    text-align: center;
+}
+#support .section-title h3{
+    font-size: 30px;
+    color: #272D4E;
+    font-weight: bold;
+}
+#support .section-title p{
+    font-size: 13px;
+    color: #94A2B3;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+/* support end */
+
+/* cta start */
+
+#cta{
+    background-color: #5F37EF;
+    padding: 40px;
+}
+
+#cta h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+#cta button{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+/* cta end */
+
+/* footer start */
+
+footer{
+    background-color: #7854F7;
+}
+
+footer .top-p ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 30px;
+}
+footer .top-p ul li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+footer .top-p ul li img{
+    margin-right: 6px;
+}
+footer .middle-p .p-5{
+    padding-top: 100px !important;
+}
+footer .bottom-p ul{
+    list-style: none;
+}
+footer .bottom-p ul li{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+footer .bottom-p{
+    padding-top: 30px;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+.jcsb{
+    justify-content: space-between;
+}
+footer .final-p ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.final-p{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.final-p{
+    color: rgb(78, 95, 194);
+    font-size: 12px;
+}
+
+/* footer end */
