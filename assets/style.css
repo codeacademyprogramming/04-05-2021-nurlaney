@@ -307,3 +307,18 @@ footer .final-p ul{
 }
 
 /* footer end */
+
+
+@media (max-width: 576px) { 
+    #hero .east img{
+        visibility: hidden;
+    }
+    footer .bottom-p ul li{
+        display: inline;
+        margin-right: 5px;
+        font-style: italic;
+    }
+    footer .bottom-p ul li:first-child{
+        display: block;
+    }
+}
